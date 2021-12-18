@@ -4,14 +4,36 @@
 }
 
 header {
-  background-color: #dcdcdc;
+  background-color: #74b8e6;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 20px;
+}
+
+main {
+  width: 150px;
+  height: 150px;
+  margin-top: 40px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.5rem;
+  text-align: left;
+}
+
+input {
+  height: 40px;
+  width: 100%;
+  font-size: 1.3rem;
+}
+
+button:hover {
+  background: aliceblue;
+  background-color: #658ee9;
 }
 
 .number {
-  border: 1px solid black;
   width: 100px;
   height: 60px;
   position: relative;
@@ -22,21 +44,16 @@ header {
   text-align: center;
 }
 
-main {
-  width: 150px;
-  height: 15s0px;
-  margin-top: 40px;
-  position: relative;
-  margin-left: auto;
-  margin-right: auto;
-  font-size: 1.5rem;
-  text-align: left;
-}
-
 .btn-check {
   margin-top: 15px;
   margin-left: 50px;
   width: 50px;
   height: 30px;
   margin-bottom: 15px;
+}
+
+.btn-again {
+  margin-top: 10px;
+  width: 100px;
+  height: 60px;
 }
